@@ -7,4 +7,6 @@ cd /System/Library/LoginPlugins/BezelServices.loginPlugin/Contents/Resources
 sudo cp volume.aiff volume_backup.aiff
 
 # Replace with Yosemite volume
-git clone https://github.com/heycait/yosemite-volume-sound/volume.aiff
+git clone https://github.com/heycait/yosemite-volume-sound.git
+sudo cp yosemite-volume-sound/volume.aiff volume.aiff
+rm -rf yosemite-volume-sound/
